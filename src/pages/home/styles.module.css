@@ -1,0 +1,11 @@
+.blogList {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.blogList li {
+  list-style-type: none;
+}
